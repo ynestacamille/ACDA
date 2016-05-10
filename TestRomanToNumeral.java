@@ -1,18 +1,9 @@
 public class TestRomanToNumeral {
 
-	RomanToNumeral romanToNumeral = new RomanToNumeral();
 	
-	
-	// on vérifie que I renvoie 1
-	public void testI() {
-		assertEquals(1, romanToNumeral.numeralFor("I"));
-	}
-	
-	public void testV() {
-		assertEquals(5, romanToNumeral.numeralFor("V"));
-	}
-	
-	public void testVI() {
-		assertEquals(6, romanToNumeral.numeralFor("VI"));
+	public static void main(String[] args)
+	{
+		System.out.println(NumeralToRoman.RomanToNumeral("III"));
+
 	}
 }
